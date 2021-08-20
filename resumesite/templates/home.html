@@ -1,0 +1,191 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+
+	<title>AJULOR CHRISTIAN | BACKEND (DJANGO) DEVELOPER | christianajulor@gmail.com</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+
+</head>
+<body>
+
+<div id="doc2" class="yui-t7">
+	<div id="inner">
+	
+		<div id="hd">
+			<div class="yui-gc">
+				<div class="yui-u first">
+					<h1>Ajulor Christian</h1>
+					<h2>Backend (Django) developer</h2>
+					<img src="{% static 'images/ms5faj5pae6nd03wazk1.png' %}" width="50%">
+				</div>
+
+				<div class="yui-u">
+					<div class="contact-info">
+						<h3><a href="mailto:christianajulor@gmail.com">christianajulor@gmail.com</a></h3>
+						<h3>08134190172</h3>
+					</div><!--// .contact-info -->
+				</div>
+			</div><!--// .yui-gc -->
+		</div><!--// hd -->
+
+		<div id="bd">
+			<div id="yui-main">
+				<div class="yui-b">
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Profile</h2>
+						</div>
+						<div class="yui-u">
+							<p class="enlarge">
+								A smart python web developer, currently an HNG intern 
+							</p>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Skills</h2>
+						</div>
+						<div class="yui-u">
+
+								<div class="talent">
+									<h2>Web Design / Development </h2>
+									<p>Assertively exploit wireless initiatives rather than synergistic core competencies.	</p>
+								</div>
+
+								<div class="talent">
+									<h2>Interface Design</h2>
+									<p>Credibly streamline mission-critical value with multifunctional functionalities.	 </p>
+								</div>
+
+								<div class="talent">
+									<h2>Project Direction</h2>
+									<p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
+								</div>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Technical</h2>
+						</div>
+						<div class="yui-u">
+							<ul class="talent">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li class="last">Python</li>
+							</ul>
+
+							<ul class="talent">
+								<li>Jquery</li>
+								<li>Bootstrap</li>
+								<li class="last">Django</li>
+							</ul>
+
+						</div>
+					</div><!--// .yui-gf-->
+
+					<div class="yui-gf">
+	
+						<div class="yui-u first">
+							<h2>Experience</h2>
+						</div><!--// .yui-u -->
+
+						<div class="yui-u">
+
+							<div class="job">
+								<h2>FREELANCE</h2>
+								<h3>Backend web developer</h3>
+								<h4>2020-present</h4>
+								<p> developed various projects </p>
+							</div>
+
+							<div class="job">
+								<h2>ZURI HNGi4</h2>
+								<h3>Backend web developer intern</h3>
+								<h4>2021-present</h4>
+								<p> working on interesting tasking projects in a fast-paced program </p>
+							</div>
+
+							<div class="job">
+								<h2>HAMOYE AI</h2>
+								<h3>Data Scientist intern</h3>
+								<h4>2020-2021</h4>
+								<p> developed machine learning models </p>
+							</div>
+
+
+							<div class="job last">
+								<h2>Safety Environtoxin Nig Ltd</h2>
+								<h3>Business development Associate</h3>
+								<h4>2001-2004</h4>
+								<p> Led the Marketing team to drive uptake of company products in
+									market place.
+									Supervised field team for operations and manage d itinerary to ensure
+									appropriate time management. </p>
+							</div>
+
+						</div><!--// .yui-u -->
+					</div><!--// .yui-gf -->
+
+
+					<div class="yui-gf last">
+						<div class="yui-u first">
+							<h2>Education</h2>
+						</div>
+						<div class="yui-u">
+							<h2>University of Benin</h2>
+							<h3>B. ENG, Petroleum Engineering &mdash; <strong>Second class honours</strong> </h3>
+						</div>
+					</div><!--// .yui-gf -->
+
+
+				</div><!--// .yui-b -->
+			</div><!--// yui-main -->
+		</div><!--// bd -->
+
+		<div class="container">
+			<form action="" method="POST" class="contact-form">
+				{% csrf_token %}
+				<div class="form-control">
+					<div class="tag"> Full Name</div>
+					<input type="text" name="full-name">
+				</div>
+				<div class="form-control">
+					<div class="tag"> Email</div>
+					<input type="text" name="email">
+				</div>
+				<div class="form-control">
+					<div class="tag"> Subject</div>
+					<input type="text" name="subject">
+				</div>
+				<div class="form-control">
+					<div class="tag">Message</div>
+					<textarea name="message" cols="30" rows="10"></textarea>
+				</div>
+				<div class="form-control">
+					<input type="submit" class="btn submit-btn" value="Send Message">
+				</div>
+			</form>
+		</div>
+
+		<div id="ft">
+			<p>Ajulor Christian &mdash; <a href="mailto:christianajulor@gmail.com">christianajulor@gmail.com</a> &mdash; 0813419172</p>
+		</div><!--// footer -->
+
+	</div><!-- // inner -->
+
+</div><!--// doc -->
+
+
+</body>
+</html>
+
